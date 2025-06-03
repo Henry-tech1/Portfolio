@@ -13,6 +13,10 @@
 
   <!-- AOS (Animate on Scroll) -->
   <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+  
+  <!-- Lightbox2 CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet" />
+  
 </head>
 <body>
 
@@ -148,7 +152,7 @@
     </p>
   
     <div class="project-cards">
-  
+
       <!-- Project 1 -->
       <div class="project-card" data-aos="fade-up" data-aos-delay="100">
         <h3>E-Commerce Sales Data Analysis</h3>
@@ -167,7 +171,7 @@
         </div>
         <a href="https://github.com/Henry-tech1/Sales-data-analysis.git" target="_blank" class="project-link">View Project</a>
       </div>
-  
+    
       <!-- Project 2 -->
       <div class="project-card" data-aos="fade-up" data-aos-delay="200">
         <h3>MoneyMentor: Personal Finance Advisor</h3>
@@ -186,7 +190,7 @@
         </div>
         <a href="https://github.com/Henry-tech1/MoneyMentor-Capstone-Project.git" target="_blank" class="project-link">View Project</a>
       </div>
-  
+    
       <!-- Project 3 -->
       <div class="project-card" data-aos="fade-up" data-aos-delay="300">
         <h3>Netflix Stock Price Prediction</h3>
@@ -205,8 +209,40 @@
         </div>
         <a href="https://github.com/Henry-tech1/Netflix-Stock-Price-Prediction.git" target="_blank" class="project-link">View Project</a>
       </div>
-  
-    </div>
+    
+      <!-- Project 4: Tata Simulation -->
+      <div class="project-card" data-aos="fade-up" data-aos-delay="400">
+        <h3>Tata Data Visualisation Simulation</h3>
+        <div class="project-story">
+          <strong>Problem:</strong>
+          <p>How can business data be turned into visual insights that empower executive decisions?</p>
+          <strong>Process:</strong>
+          <p>Completed a professional job simulation with Tata Consultancy Services via Forage. Created insightful data visualizations and prepared strategic questions for a meeting with senior leadership.</p>
+          <strong>Result:</strong>
+          <p>Developed visuals and narratives that supported executive decision-making and improved data clarity.</p>
+        </div>
+        <div class="project-tools">
+          <span class="badge">Data Visualization</span>
+          <span class="badge">Analysis & Presentation</span>
+          <span class="badge">Tableau/ Charts & Graphs</span>
+          <span class="badge">Business Communication</span>
+        </div>
+        <!-- Lightbox-enabled static visualization -->
+        <div class="project-visuals" style="margin-top: 1em;">
+          <a href="Pic/Tata Visuals.png" data-lightbox="tata-project" data-title="Retail Sales Dashboard">
+            <img src="Pic/Tata Visuals.png" alt="Retail Sales Dashboard" style="width:100%; max-width:600px; border-radius: 8px; cursor: zoom-in;" />
+          </a>
+          <p style="margin-top: 0.5em;">
+            View interactive dashboard: 
+            <a href="https://public.tableau.com/views/BusinessPerformanceMarketInsights/BusinessPerformanceMarketInsightsDashboard?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link" target="_blank">Explore on Tableau Public →</a>
+          </p>
+        </div>
+      
+        <!-- GitHub project link -->
+        <a href="https://github.com/Henry-tech1/Online-Retail-Analysis.git" target="_blank" class="project-link">View Project Code on GitHub</a>
+      </div>
+    
+    </div>        
   </section> 
 
   <!-- Contact Section -->
@@ -244,6 +280,8 @@
       toggle.textContent = document.body.classList.contains('dark-mode') ? '☀️' : '🌙';
     });
   </script>
+  <!-- Lightbox2 JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
 
 </body>
 </html>
